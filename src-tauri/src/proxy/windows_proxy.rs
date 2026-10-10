@@ -1,3 +1,5 @@
+#![cfg_attr(not(target_os = "windows"), allow(dead_code))]
+
 use std::net::IpAddr;
 
 use url::Url;
